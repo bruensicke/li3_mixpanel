@@ -15,6 +15,6 @@ and activate it in you app (config/bootstrap/libraries.php), of course:
 ## Credits
 
 * [li3](http://www.lithify.me)
-* [librato metrics](https://metrics.librato.com/)
+* [Mixpanel](https://mixpanel.com)
 
 
