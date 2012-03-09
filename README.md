@@ -12,6 +12,16 @@ and activate it in you app (config/bootstrap/libraries.php), of course:
 
 	Libraries::add('li3_mixpanel');
 
+## Usage
+
+### Preparation
+
+	Mixpanel::$token = 'de3b97e4e2807f5addb8c746c3a6f6e5';
+
+### Sending data
+
+	Mixpanel::track('api.requests', $params['request']->params);
+
 ## Credits
 
 * [li3](http://www.lithify.me)
